@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    outline: 1px solid black;
+    display: inline-block;
+}
+
+.cell.start {
+    background-color: green;
+}
+
+.cell.end {
+    background-color: red;
+}
+
+.cell.obstacle {
+    background-color: rgb(126, 125, 124);
+}
+
+.cell.visited {
+    background-color: rgb(202, 216, 235);
+}
+
+
+.cell.path {
+    background-color: black;
+}
+
+
+
+
